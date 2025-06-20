@@ -35,21 +35,17 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "your-github-username",
-        "repo": "your-repo-name"
+        "owner": "kapilbasu9",
+        "repo": "kapilbasu9"
       }
     ],
-    "win": {
-      "target": "nsis",
-      "icon": "public/icon.ico"
-    },
-    "directories": {
-      "output": "dist_electron"
-    },
     "files": [
       "dist",
       "main.js",
       "preload.js"
-    ]
-  }
+    ],
+    "directories": {
+      "buildResources": "build"
+    }
+  }  
 }

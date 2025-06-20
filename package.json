@@ -3,7 +3,7 @@
   "type": "module",
   "name": "frontend",
   "version": "1.0.0",
-  "main": "electron.js",
+  "main": "main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,0 +1,14 @@
+directories:
+  output: dist_electron
+  buildResources: build
+appId: com.aicodeassistant.app
+productName: AI Code Assistant
+win:
+  target: nsis
+  icon: public/icon.ico
+files:
+  - filter:
+      - dist
+      - main.js
+      - preload.js
+electronVersion: 36.5.0
